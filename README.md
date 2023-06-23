@@ -6,14 +6,14 @@ using the random number generator. Demonstrate using C++/Java how the divide-and
 method works along with its time complexity analysis: worst case, average case and best case.
 
 # ALGORITHM
-1. QUICKSORT (array A, int m, int n) 
-2. 1 if (n > m) 
-3. 2 then 
-4. 3 i ← a random index from [m,n] 
-5. 4 swap A [i] with A[m] 
-6. 5 o ← PARTITION (A, m, n) 
-7. 6 QUICKSORT (A, m, o - 1) 
-8. 7 QUICKSORT (A, o + 1, n)
+QUICKSORT (array A, int m, int n) 
+1 if (n > m) 
+2 then 
+3 i ← a random index from [m,n] 
+4 swap A [i] with A[m] 
+5 o ← PARTITION (A, m, n) 
+6 QUICKSORT (A, m, o - 1) 
+7 QUICKSORT (A, o + 1, n)
 
 # Time Complexities
 Worst Case Analysis: It is the case when items are already in sorted form and we try to sort 
