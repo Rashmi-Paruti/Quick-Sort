@@ -7,13 +7,13 @@ method works along with its time complexity analysis: worst case, average case a
 
 # ALGORITHM
 QUICKSORT (array A, int m, int n) 
-1 if (n > m) 
-2 then 
-3 i ← a random index from [m,n] 
-4 swap A [i] with A[m] 
-5 o ← PARTITION (A, m, n) 
-6 QUICKSORT (A, m, o - 1) 
-7 QUICKSORT (A, o + 1, n)
+1.  if (n > m) 
+2.  then 
+3.  i ← a random index from [m,n] 
+4.  swap A [i] with A[m] 
+5.  o ← PARTITION (A, m, n) 
+6.  QUICKSORT (A, m, o - 1) 
+7.  QUICKSORT (A, o + 1, n)
 
 # Time Complexities
 Worst Case Analysis: It is the case when items are already in sorted form and we try to sort 
